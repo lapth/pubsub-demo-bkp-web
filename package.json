@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite  --port 3010",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build"
   },
   "dependencies": {
     "iframe-pubsub": "1.0.24",
