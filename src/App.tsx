@@ -1,5 +1,6 @@
 import { PubSub } from 'iframe-pubsub';
 import { useEffect } from 'react';
+import SubComponent from './SubComponent';
 
 const urlParams = new URLSearchParams(window.location.search);
 const aiwbUrl = urlParams.get('aiwbUrl') || (new Date().getTime().toString());
@@ -32,6 +33,8 @@ export default function App() {
           />
         </div>
       </div>
+
+      <SubComponent></SubComponent>
     </div>
   );
 }
